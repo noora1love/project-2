@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bundle.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img class="logo" src="images/header__logo.png" alt="Logo">
+                <p class="logo-caption">Крылатко</p>
+            </div>
+            <div class="header__phone">
+                <span class="header__number">+7(950)733-31-70</span>
+                <a href="#" class="header__link">Заказать обратный звонок</a>
+            </div>
+        </div>
+        <div class="header__main-section">
+            <div class="header__text">
+                <h1 class="heading">Сертифицированные детские<br> бескаркасные автокресла</h1>
+                <p class="subheading">с бесплатной доставкой по Челябинску</p>
+            </div>
+            <div class="header__form">
+                <div class="header__rectangle">
+                    <h2 class="rectangle-question">Нет времени читать?</h2>
+                    <p class="rectangle-instr">Оставляйте номер, мы вам перезвоним</p>
+                    <input id="phone" class="rectangle-input" type="tel" placeholder="Ваш телефон">
+                    <button class="rectangle-btn" onclick="change()" id="btn">Перезвоните мне</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="reasons">
+            <div class="reasons__first">
+                <div class="text-1">
+                    <h2>Оставляет ваш салон свободным</h2>
+                    <p>Бескаркасное автокресло "Смайл" можно не снимать во время перевозки
+                        взрослого или груза. Кресло весит всего 700 грамм и установить его можно в любой автомобиль.
+                    </p>
+                </div>
+                <div class="arrow">
+                    <img src="images/arrow.png" alt="">
+                </div>
+                <div class="image-1"><img src="images/chair.png" alt="chair-image"></div>
+            </div>
+            <div class="reasons__second">
+                <div class="text-2">
+                    <h2>Подходит большинству групп детей</h2>
+                    <p>Автокресло рассчитано на возраст от 1 года до 12 лет (от 9 кг до 36 кг) Имеет пятиточную
+                        фиксацию ребенка, как в гоночном автомобиле.
+                    </p>
+                </div>
+                <div class="arrow-rev">
+                    <img src="images/arrow.png" alt="">
+                </div>
+                <div class="image-2"><img src="images/child-on-the-chair.png" alt="chair-image"></div>
+            </div>
+            <div class="reasons__third">
+                <div class="text-3">
+                    <h2>Отечественный производитель</h2>
+                    <p>Автокресла производят в г. Георгиевске (Ставропольский край), соответсвуют нормам ГИБДД и
+                        разрешены к использованию по всей территории РФ, о чем говорит сертификат соответствия.
+                    </p>
+                </div>
+                <div class="arrow">
+                    <img src="images/arrow.png" alt="">
+                </div>
+                <div class="image-3"><img src="images/chair-2.png" alt="chair-image"></div>
+            </div>
+        </section>
+        <section class="discount">
+            <div class="discount__overall">
+                <div class="discount__price">
+                    <p class="first-price">2 545 р.</p>
+                    <hr>
+                    <p class="second-price">1 850 р.</p>
+                </div>
+                <div class="text-time">
+                    <div class="discount__container">
+                        <div class="discount__text">
+                            <h2>Скидка 28%</h2>
+                            <p class="second-line">и бесплатная доставка</p>
+                            <p><img src="images/present-icon.png" alt="present-icon"> в подарок!</p>
+                        </div>
+                    </div>
+                    <div class="discount__time-container">
+                        <div class="discount__time">
+                            <div class="text-container">
+                                <span class="first-part">Акция<br> только до:</span>
+                                <div class="calendar">
+                                    <img src="images/discount-calendar.png" alt="calendar-image">
+                                    <span class="day">4</span>
+                                </div>
+                                <span class="second-part">декабря!</span>
+                            </div>
+                            <a href="#" class="discount__btn">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="statistics">
+            <div class="statistics__container">
+                <div class="statistics__years">
+                    <div class="icon">
+                        <p class="number">8</p>
+                    </div>
+                    <p class="caption">лет на рынке</p>
+                </div>
+                <div class="statistics__sales">
+                    <div class="icon">
+                        <p class="number">21 645</p>
+                    </div>
+                    <p class="caption">кресел продано</p>
+                </div>
+                <div class="statistics__smth">
+                    <div class="icon">
+                        <p class="number">1 254</p>
+                    </div>
+                    <p class="caption">что-то сделано</p>
+                </div>
+                <div class="statistics__orders">
+                    <div class="icon">
+                        <p class="number">45</p>
+                    </div>
+                    <p class="caption">заказов в день</p>
+                </div>
+            </div>
+        </section>
+        <section class="certification">
+            <div class="certification__heading">
+                <h1>Сертификация товара</h1>
+            </div>
+            <div class="certification__container">
+                <div class="certification__certification">
+                    <img src="images/certification.png" alt="certification">
+                </div>
+                <div class="certification__description">
+                    <div class="warning-caption">
+                        <img src="images/warning-icon.png" alt="">
+                        <p class="warning">Соответствуют всем нормам и требованиям правил ГИБДД</p>
+                    </div>
+                    <div class="certification__text">
+                        <div class="par first-paragraph">
+                            <p>Наши кресла производятся в г. Георгиевске (Ставропольский край), сертифицированны и
+                                разрешены
+                                к использованию по всей России.</p>
+                        </div>
+                        <div class="par second-paragraph">
+                            <p>Кресло весит всего 700 грамм, его можно носить с собой и установить в любое авто.</p>
+                        </div>
+                        <div class="par third-paragraph">
+                            <p>Стирать кресло можно при температуре 30 градусов. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="example">
+            <div class="example__container">
+                <div class="first-column-container">
+                    <div class="example__belts">
+                        <h2 class="heading belts-heading">Крепкие ремни</h2>
+                        <p class="text belts-text">Ременная тесьма имеет плотную структуру и выдерживает большие
+                            нагрузки.
+                        </p>
+                        <img class="arrow belts-arrow" src="images/belts-arrow.png" alt="">
+                    </div>
+                    <div class="example__setup">
+                        <h2 class="heading setup-heading">Удобная установка</h2>
+                        <p class="text setup-text">Достаточно продеть штатный ремень безопасности автомобиля через
+                            специальный карман устройства "ВИННИ" и застегнуть в замок.</p>
+                        <img class="arrow setup-arrow" src="images/belts-arrow.png" alt="">
+                    </div>
+                </div>
+                <div class="example__image">
+                    <img src="images/example-chair.png" alt="chair-image">
+                </div>
+                <div class="second-column-container">
+                    <div class="example__materials">
+                        <h2 class="heading materials-heading">Безопасные материалы</h2>
+                        <p class="text materials-text">При пошиве используется ткань "Оксфорд", сетка Air-mesh
+                            трёхслойная,
+                            поролон, спанбонд, халлофайбер. Все материалы экологически чистые</p>
+                        <img class="arrow materials-arrow" src="images/belts-arrow.png" alt="">
+                    </div>
+                    <div class="example__fastening">
+                        <h2 class="heading fastening-heading">Прочные крепления</h2>
+                        <p class="text fastening-text">Устройство "ВИННИ" имеет пятиточечную систему крепления. Пряжки
+                            производят из высокопрочных пластиков, имеющих хорошие показатели упругости</p>
+                        <img class="arrow fastening-arrow" src="images/belts-arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery">
+            <div class="delivery__container">
+                <div class="delivery__discount">
+                    <div class="white-rectangle">
+                        <h3 class="discount-heading">Скидка 28%</h3>
+                        <p class="first-price">2 545 р.</p>
+                        <hr>
+                        <p class="second-price">1 850 р.</p>
+                    </div>
+                </div>
+                <div class="delivery__form">
+                    <h2 class="form-heading">Оставьте заявку сейчас и получите</h2>
+                    <img class="form-arrow" src="images/delivery-arrow.png" alt="">
+                    <input class="form-field" type="tel" placeholder="Ваш телефон">
+                    <button class="form-btn">Перезвоните мне</button>
+                </div>
+            </div>
+        </section>
+        <section class="comparison">
+            <div class="comparison__captions">
+                <div class="first-caption">
+                    <h3>Обычное кресло</h3>
+                </div>
+                <div class="second-caption">
+                    <h3>Бескаркасное кресло</h3>
+                </div>
+            </div>
+            <div class="comparison__container">
+                <div class="comparison__drawbacks">
+                    <p class="paragraph">боковые стенки преграда для движений ребёнка, особенно в зимний период, когда
+                        много
+                        одежды</p>
+                    <p class="paragraph">необходимо менять автокресло по мере увеличения веса ребёнка</p>
+                    <p class="paragraph">имеет 5-ти точечную фиксацию ребёнка</p>
+                    <p class="paragraph">нужно убирать в багажник, при перевозке взрослых или каких-либо грузов</p>
+                </div>
+                <div class="comparison__drawbacks-arrows">
+                    <img class="comp-arrow darrow-1" src="images/drawback-arrow.png" alt="">
+                    <img class="comp-arrow darrow-2" src="images/drawback-arrow.png" alt="">
+                    <img class="comp-arrow darrow-3" src="images/drawback-arrow.png" alt="">
+                    <img class="comp-arrow darrow-4" src="images/drawback-arrow.png" alt="">
+                </div>
+                <div class="comparison__chair">
+                    <img src="images/comparison-img.png" alt="chair-img">
+                </div>
+                <div class="comparison__advantages-arrows">
+                    <img class="comp-arrow aarow-1" src="images/advantages-arrow.png" alt="">
+                    <img class="comp-arrow aarow-2" src="images/advantages-arrow.png" alt="">
+                    <img class="comp-arrow aarow-3" src="images/advantages-arrow.png" alt="">
+                    <img class="comp-arrow aarow-4" src="images/advantages-arrow.png" alt="">
+                </div>
+                <div class="comparison__advantages">
+                    <p class="paragraph">даёт полную безопасную свободу ребёнка<br />ОСТАВЛЯЕТ СПИНКУ И СИДЕНИЕ ЧИСТЫМ
+                    </p>
+                    <p class="paragraph">подходит 1, 2, 3 группе детей (от 9 кг до 36 кг) (от 1 года до 12 лет)</p>
+                    <p class="paragraph">имеет 5-ти точечную фиксацию ребёнка</p>
+                    <p class="paragraph">не мешает при перевозке пассажиров или грузов. Весит 700 грамм</p>
+                </div>
+            </div>
+        </section>
+        <section class="location">
+            <div class="location__container">
+                <div class="location__map">
+                    <img class="map" src="images/map.png" alt="mapImage">
+                </div>
+                <div class="location__descr">
+                    <img src="images/map-marker.png" alt="mapMarkerImage">
+                    <p class="instruction">Забрать кресло можно по адресу:</p>
+                    <h2 class="address">Челябинск,<br /> ул. Академика Королева, 38</h2>
+                    <p class="instruction">или используйте</p>
+                    <a class="delivery-btn" href="#">Бесплатная доставка</a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__Logo">
+                    <img src="images/header__logo.png" alt="logo">
+                    <p class="logo-caption">КРЫЛАТКО</p>
+                </div>
+                <div class="footer__policy">
+                    <a class="footer-link" href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__info">
+                    <p>ИНН 999999999</p>
+                    <p>ОГРН 453453453453</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script>
+        function change() {
+            let btn = document.getElementById("btn");
+            btn.textContent = "Спасибо за заявку!";
+            document.getElementById("phone").value = '';
+        }
+    </script>
+</body>
+
+</html>
